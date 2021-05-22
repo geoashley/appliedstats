@@ -335,7 +335,7 @@ rbind(x, rev(x), rep(1, 9))
 cbind(col_1 = x, col_2 = rev(x), col_3 = rep(1, 9))
 ```
 
-When using `rbind` and `cbind` you can specify "argument" names that will be used as column names.
+When using `rbind` and `cbind` you can specify "argument" names that will be used as row names and column names respectively.
 
 `R` can then be used to perform matrix calculations.
 
